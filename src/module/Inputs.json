@@ -1,0 +1,71 @@
+{
+    "about":[
+    {
+      "picture": "./images/picture.jpg",
+      "name": "Kalai Selvi R",
+      "address": "Ponnerikarai, Kanchipuram",
+      "designation": "React Developer",
+      "type": "Full-time",
+      "salary": "Junior",
+      "languages":"Tamil, English",
+      "website":"https://schkjkdjnkj.com",
+      "introduction": "Hello! I am Kalai Selvi.I am passionate about UI design and Web design.I am looking for aspiring career in Information Technology with a passion for delivering quality user experiences.I do have an eye for detail and a passion for perfecting frontend builds, having knowledge in HTML, CSS, Javascript, Reactjs.Building a user experiences requires as much passion for perfecting the visual and interactive elements as for delivering clean reusable code.Eager to work in an Organization that will utilize my ability and technical skills",
+      "collage": "./images/clg.jpg",
+      "naukri":"./images/naukri.png",
+      "stream": "Bachelor of Engineering",
+      "university":"Anna University",
+      "year": "2012-2016"
+    }
+    ],
+    "tools": [
+    {
+      "src": "./images/bootstrap.jpg",
+      "course": "Bootstrap 5"
+    },
+    {
+      "src": "./images/vscode.jpg",
+      "course": "VS Code"
+    },
+    {
+      "src": "./images/mui.png",
+      "course": "Material UI"
+    },
+    {
+      "src":"./images/react.png",
+      "course":"React"
+    }
+    ],
+    "languages": [
+      {
+        "pic": "./images/javascript.svg",
+        "course": "Javascript"
+      },
+      {
+        "pic": "./images/typescript.svg",
+        "course": "Typescript"
+      },
+      {
+        "pic": "./images/html.png",
+        "course": "HTML"
+      }
+    ],
+    "Skills": ["HTML & CSS","Javascript XML","User Interface","Javascript Fundamentals","Git","Node","Redux Fundamentals"],
+    "recentProjects":[
+      {
+        "pic": "projectImage",
+        "layout":"projectContent",
+        "location":"Presento.",
+        "dest":"A Responsive Web Design",
+        "skill":"HTML & CSS"
+      }
+    ],
+    "thoughts":["Build a Web page with HTML tags","Styles using CSS",
+    "Build and Style HTML Forms, Buttons, Tables and Images","Menus and Dropdown Menus with bootstrap",
+    "Build a interactive user interface with React",
+    "Create components by ES6 arrow function for callbacks or method like map,filter,reduce...",
+    "Designed with Material UI and Bootstrap","useState hook to track the state of the component",
+    "Transfers the data from parent to child by props method and from child to parent by callback functions",
+    "Axios Api calls"
+    ]
+  }
+  

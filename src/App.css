@@ -1,0 +1,341 @@
+* {
+  font-family: 'Jost,sans-serif';
+}
+
+.portfolio {
+  border-top: 1px solid rgba(128, 128, 128, 0.322);
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+/* About */
+.part1 {
+  background-color: "#030D3D";
+}
+
+.leftPart {
+  text-align: center;
+}
+
+.leftPart .picture {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.leftPart .icons {
+  margin: 7px 0px 25px 0px;
+}
+
+.section1 .switchContent {
+  float: left;
+}
+
+.switch {
+  float: right;
+}
+
+.line {
+  background-color: rgba(255, 255, 255, 0.288);
+}
+
+.line2 {
+  background-color: rgba(255, 255, 255, 0.288);
+}
+
+.section1.type {
+  margin-top: 30px;
+}
+
+.section1 .subContent {
+  margin-bottom: 20px;
+}
+
+.section1 .webLink {
+  color: rgba(128, 128, 128, 0.911);
+  cursor: pointer;
+}
+
+.section1 .linkedIcon {
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.shareIcons {
+  margin: 5px 25px 10px 25px;
+  margin-top: 20px !important;
+  transform: scale(1.5);
+  color: white;
+}
+
+.winning {
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+}
+
+.winning .winImg {
+  text-align: center;
+  margin: auto;
+}
+
+/* Introduction  */
+.middleContent {
+  margin-top: 10px;
+  padding: 20px;
+  padding-left: 45px;
+  padding-right: 50px;
+  border-right: 1px solid rgba(128, 128, 128, 0.24);
+}
+
+.introHead {
+  font-size: 2.125rem;
+  font-weight: 400;
+}
+
+.introContent {
+  padding-top: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.356);
+  font-family: Jost, sans-serif;
+}
+
+.middleContent img {
+  height: 45px;
+  margin-top: 10px;
+}
+
+.shareContent {
+  margin-right: 20px !important;
+  float: left;
+  margin-top: 20px !important;
+}
+
+.shareIcons:hover {
+  cursor: pointer;
+}
+
+.profileIcon {
+  color: #007BB5;
+  margin: 5px 25px 10px 25px;
+  margin-top: 20px !important;
+  transform: scale(1.5);
+}
+
+.chipContent {
+  margin: 0px 10px 10px 0px;
+}
+
+.projectContent {
+  width: 100%;
+  background-color: rgba(65, 60, 60, 0.527);
+  box-sizing: border-box;
+  color: white;
+  padding: 80px 10px 30px 20px;
+}
+
+.projectImage {
+  background-image: url(../public/images/project.png);
+  margin-bottom: 30px;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 1.5rem;
+  margin-top: 25px;
+}
+
+li {
+  list-style-type: circle;
+  font-size: 1.1rem;
+  line-height: 40px;
+}
+
+/* Projects */
+.Tools {
+  padding: 30px 45px 45px 45px;
+  box-sizing: border-box;
+}
+
+.trainingCard {
+  width: 210px;
+  box-shadow: 0px 2px 23px 0px rgba(0, 0, 0, 0.116);
+  margin-bottom: 20px;
+}
+
+.trainingCard img {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.righthead {
+  font-size: 23px !important;
+  margin: 10px 10px 20px 0px !important;
+  font-family: 'Jost', sans-serif;
+}
+
+@media only screen and (max-width:768px) {
+  .forTabView {
+    display: block;
+  }
+
+  .jobExp {
+    display: none;
+  }
+
+  .line2 {
+    display: none;
+  }
+
+  .flexContainer {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .toolCard {
+    box-sizing: border-box;
+    min-height: 320px;
+    min-width: 320px;
+    padding: 80px 10px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 23px 0px rgba(0, 0, 0, 0.116);
+  }
+
+  .toolImg {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .toolName {
+    font-size: 19px !important;
+    text-align: center;
+    margin: 20px 0px 0px 0px !important;
+  }
+
+  .trainingCard {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+}
+
+@media only screen and (max-width:425px) {
+  .toolCard {
+    box-sizing: border-box;
+    display: inline-block;
+    min-height: 150px !important;
+    min-width: 160px;
+    padding: 20px 10px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+  }
+
+  .toolImg {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .toolName {
+    font-size: 12px !important;
+    text-align: center;
+    margin: 20px 0px 0px 0px !important;
+  }
+}
+
+@media only screen and (max-width:375px) {}
+
+@media only screen and (min-width:769px) {
+  .forTabView {
+    display: none;
+  }
+
+  .jobExp {
+    display: block;
+  }
+
+  .flexContainer {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .toolCard {
+    box-sizing: border-box;
+    display: inline-block;
+    min-height: 150px !important;
+    min-width: 160px;
+    padding: 20px 10px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 23px 0px rgba(0, 0, 0, 0.116);
+  }
+
+  .toolImg {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .toolName {
+    font-size: 12px !important;
+    text-align: center;
+    margin: 20px 0px 0px 0px !important;
+  }
+
+  .trainingCard {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (min-width:992px) {}
+
+@media only screen and (min-width:1280px) {
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .toolCard {
+    min-height: 100px !important;
+    min-width: 100px;
+    padding: 20px 0px;
+    box-shadow: 0px 2px 23px 0px rgba(0, 0, 0, 0.116);
+    margin: 5px 6px;
+  }
+
+  .toolImg {
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .toolName {
+    font-size: 10px !important;
+    margin-top: 15px !important;
+  }
+}
+
+@media only screen and (min-width:1440px) {
+  .toolCard {
+    background-color: gray;
+    min-height: 100px !important;
+    min-width: 104px;
+    padding: 20px 0px;
+    box-shadow: 0px 2px 23px 0px rgba(0, 0, 0, 0.116);
+    margin: 5px 5px;
+  }
+}
