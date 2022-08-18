@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Kalai333.github.io/my-portfolio/static/css/main.7c8ff7cd.css",
-    "main.js": "/Kalai333.github.io/my-portfolio/static/js/main.a064f117.js",
-    "static/js/787.128fc6e9.chunk.js": "/Kalai333.github.io/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/project.png": "/Kalai333.github.io/my-portfolio/static/media/project.5efe4b69315bf34f810a.png",
-    "index.html": "/Kalai333.github.io/my-portfolio/index.html",
-    "main.7c8ff7cd.css.map": "/Kalai333.github.io/my-portfolio/static/css/main.7c8ff7cd.css.map",
-    "main.a064f117.js.map": "/Kalai333.github.io/my-portfolio/static/js/main.a064f117.js.map",
-    "787.128fc6e9.chunk.js.map": "/Kalai333.github.io/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/static/css/main.bc306cd9.css",
+    "main.js": "/static/js/main.76cf14e3.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/project.png": "/static/media/project.5efe4b69315bf34f810a.png",
+    "index.html": "/index.html",
+    "main.bc306cd9.css.map": "/static/css/main.bc306cd9.css.map",
+    "main.76cf14e3.js.map": "/static/js/main.76cf14e3.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c8ff7cd.css",
-    "static/js/main.a064f117.js"
+    "static/css/main.bc306cd9.css",
+    "static/js/main.76cf14e3.js"
   ]
 }
